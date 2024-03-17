@@ -1,0 +1,107 @@
+/* styles.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #d3d3d3; /* Light grey background */
+    color: #333; /* Dark text color */
+    margin: 0; /* Remove default body margin */
+    padding: 20px; /* Add padding for content */
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.enroll-info {
+    text-align: left;
+}
+
+.enrolled-title {
+    text-align: left;
+}
+
+/* Table container styles */
+.table-container {
+    display: flex; /* Use flexbox layout */
+}
+
+/* Student List table styles */
+.student-table {
+    flex: 1; /* Take up available space */
+    width: 60%;
+    margin-right: 20px; /* Add some space between tables */
+}
+
+/* Add Student table styles */
+.add-student-table {
+    flex: 1; /* Take up available space */
+    width: 40%;
+}
+
+/* Table header styles */
+.student-table th, .add-student-table th {
+    background-color: #990000;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px; /* Add padding */
+    font-size: 16px; /* Decrease font size */
+}
+
+/* Table cell styles */
+.student-table td, .add-student-table td {
+    padding: 4px; /* Decrease padding */
+    text-align: center; /* Center-align cell content */
+    border-top: 1px solid #ccc; /* Add top border */
+    font-size: 16px; /* Decrease font size */
+}
+
+/* Hover effect */
+.student-table td:hover, .add-student-table td:hover {
+    background-color: #eaeaea; /* Lighter shade of gray on hover */
+}
+
+/* Link styles */
+a {
+    color: #990000; /* Clark University red link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Button styles */
+input[type="submit"] {
+    background-color: #990000; /* Clark University red */
+    color: #fff;
+    border: none;
+    padding: 10px 0; /* Adjust padding */
+    width: 100%; /* Make button width 100% */
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center; /* Center-align button text */
+}
+
+/* .sub-button{
+    background-color: #990000; /* Clark University red */
+    /* color: #fff;
+    border: none;
+    padding: 10px 0; /* Adjust padding */
+    /* width: 30%; Make button width 100% */
+    /* cursor: pointer; */
+    /* border-radius: 5px; */
+    /* font-size: 16px; */
+    /* text-align: center; Center-align button text */ */
+
+
+input[type="submit"]:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
